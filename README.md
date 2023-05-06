@@ -1,2 +1,2 @@
 # nft-preview
-Submission for odinproject
+Submission for FrontEndMentor.
