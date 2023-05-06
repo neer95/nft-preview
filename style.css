@@ -1,0 +1,111 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* Primary Colors */
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+/* Neutral Colors */
+:root {
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* Reset default browser properties */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-bg);
+    color: var(--white);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 35rem;
+    padding: 2.4rem;
+    background-color: var(--card-bg);
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.4);
+    border-radius: 2.0rem;
+}
+
+#main-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 2.0rem;
+}
+
+.card h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.details p {
+    color: var(--soft-blue);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.price-box {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nft p {
+    color: var(--cyan)
+}
+
+.time p {
+    color: var(--soft-blue);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.creator img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator span {
+    color: var(--soft-blue);
+}
+
+#line {
+    border: 1px solid var(--line);
+    margin-bottom: 1.2rem;
+}
